@@ -74,10 +74,45 @@ a {
 	position: absolute;
 }
 
+.integrationA {
+	color: #3f5f70;
+}
+
+.welcomeA {
+	margin-right: 20%;
+	margin-top: 5%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #3f5f70;
+	background: #3f5f70;
+	margin-bottom: 5%;
+	margin-left: 20%;
+}
+
+.welcomeA h1 {
+	margin-left: 20%;
+	color: #D9D9D9;
+	font-size: 50px;
+}
+
+.welcomeA h2{
+	margin-left: 22%;
+	color: #D9D9D9;
+	margin-top: 10%;
+	font-size: 40px;
+}
+
+.welcomeA h3 {
+	margin-left:30%;
+	color: #D9D9D9;
+	font-size: 30px;
+}
+
 .contentDiv {
 	display: flex;
 	margin-left: 10%;
-	margin-top:15%;
+	margin-top:10%;
 	justify-content: space-between;
 	flex-direction: column;
 	color: #535f6e;
@@ -92,6 +127,77 @@ a {
 }
 
 .introduction {
+	margin-right: 10%;
+	color: #51788c;
+}
+
+.definition {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+}
+
+.introductionA {
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #d5d9de;
+	background: #d5d9de;
+	margin-bottom: 5%;
+	font-size: 50px;
+}
+.introductionB {
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #d5d9de;
+	background: #d5d9de;
+	margin-bottom: 5%;
+}
+.introductionC {
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #d5d9de;
+	background: #d5d9de;
+	margin-bottom: 5%;
+}
+
+.useCase {
+	margin-right: 10%;
+	color: #51788c;
+}
+
+.useCaseA {
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #d5d9de;
+	background: #d5d9de;
+	margin-bottom: 5%;
+}
+
+
+.ethicsA {
+	margin-right: 10%;
+	color: #51788c;
+}
+
+.ethicsB {
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #d5d9de;
+	background: #d5d9de;
+	margin-bottom: 5%;
+}
+
+.ethicsC {
 	margin-right: 10%;
 	border-style: solid;
 	border-width: 20px;
@@ -134,6 +240,21 @@ a {
 
 }
 
+.futureA {
+	margin-right: 10%;
+	color: #51788c;
+}
+
+.futureB {
+	margin-right: 10%;
+	border-style: solid;
+	border-width: 20px;
+	border-radius: 30px;
+	border-color: #d5d9de;
+	background: #d5d9de;
+	margin-bottom: 5%;
+}
+
 
 .mainTitle {
 	position: relative;
@@ -157,7 +278,7 @@ a {
 
 .subTitle {
 	position: absolute;
-	color: #242526;
+	color: #3f5f70;
 	top: 50%;
 	margin-left: 13%;
 	font-size: 40px;
